@@ -11,7 +11,7 @@ c
         integer   nx,ny,nz,nx1,ny1,nz1,ndiag,npos,nrow,nsat
         real pi
 	parameter  (pi = 3.14159265536)
-	parameter  (nx = 103, ny = 53, nz = 53)
+	parameter  (nx = 203, ny = 103, nz = 103)
 	parameter  (nx1 = nx-1, ny1 = ny-1, nz1 = nz-1)
 	parameter  (ndiag = 25, npos = 12, nrow = 5)
 	parameter  (nsat = npos*nrow)

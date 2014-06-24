@@ -23,7 +23,9 @@ OBJ =	magnfl.o	first.o		orgstart.o	\
 #FC = pgf90 -fast -mp -c
 #FC = ftn -fast -mp=nonuma -c
 #FC = gfortran -O3 -fopenmp -c
-FC = gfortran -O3  -c
+FC = gfortran-mp-4.9 -O3  -c
+FCMain = gfortran-mp-4.9
+#FCMain = gfortran
 
 DEF = misflin
 
@@ -32,7 +34,9 @@ mess3d: $(OBJ) $(OBJT)  $(OBJG)
 #	pgf90 $(OBJ) -fast -mp -o mhd3d
 #	ftn $(OBJ) -fast -mp=nonuma -o mhd3d
 #	gfortran $(OBJ) -O3 -fopenmp -o mhd3d
-	gfortran $(OBJ) -O3  -o mhd3d
+#	gfortran $(OBJ) -O3  -o mhd3d
+	$(FCMain) $(OBJ) -O3  -o mhd3d
+
 
 
 magnfl.o:	magnfl.f $(DEF)		; $(FC)   magnfl.f   	
