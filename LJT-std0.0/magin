@@ -26,12 +26,12 @@
       .04             visy
       .04             visz
      0.               xmin
-    40.               xmax
+    80.               xmax
    -20.               ymin
     20.               ymax
    -20.               zmin
     20.               zmax
-   -85.               psi    (rotates y,z directions)  *
+     0.               psi    (rotates y,z directions)  *
      0.               phi    (init cond.: magn shear angle)
      1.0              bmsh   (init cond.: magn field MSH)
      1.0              pmsp   (init cond.: pressure MSP)
