@@ -1,0 +1,19 @@
+ Satellite and program parameters:
+ ---------------------------------
+
+ number of satellites:  0   start time:   0.00   time resolution: 0.0000
+
+ Normalisation for : 
+  No density ! magn. field!  velocity  !  pressure  !length units!    time     
+   cm**(-3)  !     nT     !    km/s    !   nPascal  !     km     !      s      
+       8.00        25.00       192.69       0.2487       500.00       2.5949
+
+ Initial asymptotic values at xmin (1. row) and xmax (2. row) for: 
+     rho      p        vx       vy       vz       bx       by       bz    
+    1.200    1.000    1.000    0.000    0.000    0.000    0.100    0.100
+    1.000    1.020    0.000    0.000    0.000    0.000    0.000    0.000
+
+ Initial satellite locations and velocity:
+ sat  !    x    !    y    !    z    !    vx   !    vy   !    vz   
+ Satellite velocity is relative to restframe of the magnetosphere (at xmin)!!!
+ Plasma velocity is recorded in the satellite frame!

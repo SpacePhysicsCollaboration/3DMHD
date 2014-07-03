@@ -4,7 +4,7 @@
  .false. 	      relaxation
  .false.              jout: output current density every deltj time
  .false.              calculate fluxsurface
- .true.               mitsat: with satellite data
+ .false.              mitsat: with satellite data
          2            etasw: 2,3,4-parameter dep res, 1-time dep, 0-const *
        100            800 isafe (mod int step of binary output)
       5000            iend (last int step)
@@ -32,7 +32,7 @@
    -20.               zmin
     20.               zmax
    -85.               psi    (rotates y,z directions)  *
-    10.               phi    (init cond.: magn shear angle)
+     0.               phi    (init cond.: magn shear angle)
      1.0              bmsh   (init cond.: magn field MSH)
      1.0              pmsp   (init cond.: pressure MSP)
      0.1              kappa  (init cond.: magn pressure in current layer)

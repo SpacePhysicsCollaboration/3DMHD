@@ -10,11 +10,12 @@ c
 	implicit none
         integer   nx,ny,nz,nx1,ny1,nz1,ndiag,npos,nrow,nsat
         real pi
-	parameter  (pi = 3.14159265536)
-	parameter  (nx = 203, ny = 103, nz = 103)
+	parameter  (pi = 3.1415926536)
+	parameter  (nx = 203, ny = 53, nz = 53)
 	parameter  (nx1 = nx-1, ny1 = ny-1, nz1 = nz-1)
 	parameter  (ndiag = 25, npos = 12, nrow = 5)
-	parameter  (nsat = npos*nrow)
+	parameter  (nsat = 0)
+c	parameter  (nsat = npos*nrow)
 c  uncomment for flux! computation 
 c	parameter  (nxneu = 45, nyneu = 41, nzneu = 33)
 c        parameter  (nxf=151,nyf=151,nzf=151,nindf=100000)

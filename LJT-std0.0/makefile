@@ -74,10 +74,13 @@ nzznew.o:	nzznew.f $(DEF)		; $(FC)   nzznew.f
 fndiag.o:	fndiag.f $(DEF)		; $(FC)	  fndiag.f 
 
 cleano:
-	rm -f *.o
+	rm -f *.o 
 
 cleant:
 	rm -f $(OBJT)
 
 cleang:
 	rm -f $(OBJG)
+
+cleanall:
+	rm -f *.o magtap*

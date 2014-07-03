@@ -11,7 +11,8 @@ c   x = xmin
 c
 c--------------------------------------
         gaminv = 1./gamma
-        omega=2*pi/500
+c        omega=2*pi/500
+	omega=0
         omega=omega*time
         cot=cos(omega)
         sot=sin(omega)       
